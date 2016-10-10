@@ -1,0 +1,1 @@
+# An array is basically an ordered list. A hash is a list of key/value pairs. In general, you use an array when order matters and you use a hash when you need association to specific labels.
