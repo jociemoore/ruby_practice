@@ -83,23 +83,6 @@ sentence = "Humpty Dumpty sat on a wall."
 # -----------
 # Question 6
 # -----------
-# munsters = {
-#   "Herman" => { "age" => 32, "gender" => "male" },
-#   "Lily" => { "age" => 30, "gender" => "female" },
-#   "Grandpa" => { "age" => 402, "gender" => "male" },
-#   "Eddie" => { "age" => 10, "gender" => "male" },
-#   "Marilyn" => { "age" => 23, "gender" => "female"}
-# }
-
-# def mess_with_demographics(demo_hash)
-#   demo_hash.values.each do |family_member|
-#     family_member["age"] += 42
-#     family_member["gender"] = "other"
-#   end
-# end
-
-# mess_with_demographics(munsters)
-
 # The mess_with_demogrphics method that Spot wrote changed the original data because he made changes directly to the demo_hash. Within the method, he did not assign the demo_hash to a new_variable and then make changes to new_variable instead. 
 
 # -----------
