@@ -122,7 +122,6 @@
 # end
 
 
-
 # Test Cases:
 # ----------
 # p balanced?('What (is) this?') == true
@@ -160,8 +159,8 @@
 #   false
 # end
 
-# Test Cases:
-# -----------
+# # Test Cases:
+# #-----------
 # p balanced?('What "is" this? What [is] this?') #== true
 # p balanced?('What {is} "this?') #== false
 
@@ -208,6 +207,9 @@
 #   end
 # end
 
+# # Test Cases:
+# # -----------
+
 # p triangle(60, 70, 50) == :acute
 # p triangle(30, 90, 60) == :right
 # p triangle(120, 50, 10) == :obtuse
@@ -237,7 +239,7 @@
 #data structure?
 #abstraction?
 
-require 'date'
+# require 'date'
 
 # def friday_13th?(year)
 #   total = 0
@@ -342,6 +344,8 @@ require 'date'
 #   next_featured_num
 # end
 
+# # Test Cases:
+# # -----------
 
 # p featured(12) == 21
 # p featured(20) == 21
@@ -372,6 +376,9 @@ require 'date'
 #   end
 # end
 
+# # Test Cases:
+# # -----------
+
 # array = [5, 3]
 # p bubble_sort!(array)
 # #array == [3, 5]
@@ -397,6 +404,9 @@ def sum_square_difference(number)
   sum_of_squares = integers.map { |number| number**2 }.inject(:+)
   square_of_sum - sum_of_squares
 end
+
+# Test Cases:
+# -----------
 
 p sum_square_difference(3) == 22
    # -> (1 + 2 + 3)**2 - (1**2 + 2**2 + 3**2)
