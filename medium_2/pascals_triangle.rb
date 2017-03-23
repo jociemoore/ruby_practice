@@ -6,7 +6,7 @@ class Triangle
 
   def rows
     (1..depth).each_with_index do |current_depth, row_index|
-      triangle << get_row(current_depth, row_index)
+      triangle << get_row(row_index)
     end
     triangle
   end
@@ -15,7 +15,7 @@ class Triangle
 
   attr_accessor :depth, :triangle
 
-  def get_row(current_depth, row_index)
+  def get_row(row_index)
     return [1] if row_index == 0
     prev_row = triangle[row_index - 1]
     row = []
