@@ -29,8 +29,7 @@ class Clock
   end
 
   def ==(other_clock)
-    self.hour == other_clock.hour &&
-    self.minutes == other_clock.minutes
+    self.total_minutes == other_clock.total_minutes
   end
 
   def to_s
