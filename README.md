@@ -1,4 +1,4 @@
-# 130 Ruby Foundations: Lesson #1
+# 130 More Ruby Foundations: Lesson #1
 
 Topics covered in the lesson include:
 * What Ruby Blocks Are
